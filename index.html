@@ -6,7 +6,7 @@
         <style>
              h1 {
             color: white;
-            font-size: 50px;
+            font-size: 35px;
           }
 
           h3 {
@@ -43,6 +43,19 @@
 				max-width: 30%;
 			}
 		}
+
+    .image-container {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
           
 
         </style>
@@ -103,11 +116,14 @@
           
 
   <section id="news1">
-      <img src="static/images/paypal.jpg" >
+    <p>
+      <h3 style="color: black;">PayPal enables transfer of digital currencies to external wallets</h3>
+   </p>
+    <div class="image-container">
+      <img src="static/images/paypal.jpg" class="responsive-image" >
+    </div>
       <!--<img src="static/images/paypal.jpg" align="right" width="550" height="350">-->
-        <p>
-           <h3 style="color: black;">PayPal enables transfer of digital currencies to external wallets</h3>
-        </p>
+        
             
         <article>
               <p> 
@@ -137,13 +153,16 @@
 
 
 <section id="news2">
-  <img src="static/images/italy.jpg">
+  <p>
+    <h3 style="color: black;">Italian Parliament Approves 26% Crypto-Gains Tax in 2023 Budget</h3>
+  </p>
+  <div class="image-container">
+  <img src="static/images/italy.jpg" class="responsive-image">
+</div>
 
   <!--<img src="static/images/italy.jpg"  align="left" width="550" height="350">-->
 
-            <p>
-              <h3 style="color: black;">Italian Parliament Approves 26% Crypto-Gains Tax in 2023 Budget</h3>
-            </p>
+            
 
       <article>
           <p>
@@ -173,12 +192,15 @@
 
 
 <section id = "news3">
-  <img src="static/images/microstrategy.jpg">
+  <p>
+    <h3 style="color: black;">Microstrategy Buys More Bitcoin — Company's Crypto Holdings Grow to 132,500 BTC</h3>
+</p>
+  <div class="image-container">
+  <img src="static/images/microstrategy.jpg" class="responsive-image">
+  </div>
 <!--<img src="static/images/microstrategy.jpg"  align="left" width="550" height="350">-->
 
-    <p>
-        <h3 style="color: black;">Microstrategy Buys More Bitcoin — Company's Crypto Holdings Grow to 132,500 BTC</h3>
-    </p>
+    
             
     <article>
            <p>
@@ -220,7 +242,9 @@
               <h3 style="color: black;" align="middle" >Bitcoin Miners’ Revenue Hits $9.55 Billion in 2022
               </h3>
             </p>
-            <img src="static/images/bitcoin1.jpg">
+            <div class="image-container">
+            <img src="static/images/bitcoin1.jpg" class="responsive-image">
+            </div>
 
             
 
@@ -261,7 +285,9 @@
       <h3 style="color: black;" align="middle" >Mango Markets Exploiter Eisenberg Arrested in Puerto Rico
       </h3>
     </p>
-    <img src="static/images/mangomarket1.jpg">
+    <div class="image-container">
+    <img src="static/images/mangomarket1.jpg" class="responsive-image">
+    </div>
     
 
     <!--<figure align="middle">
@@ -295,6 +321,7 @@
 <footer>
   <p align="middle">Contact us - abc@gmail.com </p> 
 </footer>
+
 
   </body>
   </html>
