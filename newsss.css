@@ -1,20 +1,72 @@
+h1 {
+  color: white;
+  font-size: 35px;
+}
+
+h3 {
+  color: white;
+}
+
+
+h4 {
+  color: white;
+  font-size: 14px;
+}
+
+#news1 p,
+#news2 p,
+#news3 p,
+#news4 p,
+#news5 p {
+   font-size: 16px; 
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+@media screen and (min-width: 768px) {
+img {
+max-width: 50%;
+}
+}
+
+@media screen and (min-width: 1200px) {
+img {
+max-width: 30%;
+}
+}
+
+.image-container {
+max-width: 100%;
+height: auto;
+margin: 0 auto;
+text-align: center;
+}
+
+.responsive-image {
+max-width: 100%;
+height: auto;
+}
+
 .band-header {
-    text-align: left;
-    padding: 2px;
-    color: white;
-    background-color: rgb(245, 11, 11);
-  }
+text-align: left;
+padding: 2px;
+color: white;
+background-color: rgb(245, 11, 11);
+}
 
 
-  .band-headerr {
-   
-    padding: 2px;
-    height: 6%;
-    background-color: rgb(12, 11, 11);
-  }
+.band-headerr {
+
+padding: 2px;
+height: 6%;
+background-color: rgb(12, 11, 11);
+}
 
 
-  .vl {
+.vl {
 border-left: 1px solid black;
 border-right: 1px solid black;
 height: 500px;
@@ -22,7 +74,7 @@ height: 500px;
 
 
 
-  footer {
+footer {
 text-align: center;
 padding: 1px;
 background-color: black;
@@ -31,49 +83,41 @@ color: white;
 
 
 .vl {
-    border-left: 1px solid rgb(226, 218, 218);
-    height: 300px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 730;
-  }
+border-left: 1px solid rgb(226, 218, 218);
+height: 300px;
+position: absolute;
+left: 50%;
+margin-left: -3px;
+top: 730;
+}
 
-  aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
-    font-style: italic;
-    background-color: lightgray;
-  }
-
-
-  a:link {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:hover {
-    color: black;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-  }
+aside {
+width: 30%;
+padding-left: 15px;
+margin-left: 15px;
+float: right;
+font-style: italic;
+background-color: lightgray;
+}
 
 
-  
-
-  
-
-
-  
+a:link {
+color: black;
+background-color: transparent;
+text-decoration: none;
+}
+a:visited {
+color: black;
+background-color: transparent;
+text-decoration: none;
+}
+a:hover {
+color: black;
+background-color: transparent;
+text-decoration: underline;
+}
+a:active {
+color: yellow;
+background-color: transparent;
+text-decoration: underline;
+}
